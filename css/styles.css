@@ -13,24 +13,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-.title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.text {
-    font-family: 'Roboto';sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.03em;
-    color: inherit;
-}
-
 .nav-link {
 color: #2196F3;
 }
@@ -39,8 +21,6 @@ color: #2196F3;
 .nav-link :focus {
   color: orange;
 }
-
-
 .nav-link :active {
   color: red;
 }
@@ -48,3 +28,31 @@ color: #2196F3;
 .button {
     cursor: pointer;
 }
+.main-title {
+    font-family: 'Roboto';
+    font-weight: 900, Black;
+    font-size: 44px;
+    line-height: 1.5;
+}
+.asset-title .title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.asset-text {
+    font-family: 'Roboto';sans-serif;
+    font-weight: 400;
+}
+.title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: inherit;
+}
+
