@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -31,16 +31,17 @@ body {
     color: inherit;
 }
 
-.button a {
-color: teal;
+.nav-link {
+color: #2196F3;
 }
 
-.button a:hover,
-.button a:focus {
+.nav-link :hover,
+.nav-link :focus {
   color: orange;
 }
 
-.button a:active {
+
+.nav-link :active {
   color: red;
 }
 
