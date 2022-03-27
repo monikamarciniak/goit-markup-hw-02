@@ -11,23 +11,39 @@ body {
     font-size: 26px;
     line-height: 1.5;
     letter-spacing: 0.03em;
+    color: #212121;
 }
 
-.nav-link {
-color: #2196F3;
+.nav-link,
+.nav-mail,
+.nav-phone {
+color: #212121;
 }
 
-.nav-link :hover,
-.nav-link :focus {
-  color: orange;
+.nav-link:hover,
+.nav-link:focus,
+.nav-mail:hover,
+.nav-mail:focus,
+.nav-phone:hover,
+.nav-phone:focus{
+  color: #2196F3;
 }
-.nav-link :active {
+
+.nav-link:active,
+.nav-mail:active,
+.nav-phone:active {
   color: red;
 }
 
 .button {
     cursor: pointer;
+    
 }
+.button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
 .main-title {
     font-family: 'Roboto';
     font-weight: 900, Black;
@@ -42,6 +58,21 @@ color: #2196F3;
     font-family: 'Roboto';sans-serif;
     font-weight: 400;
 }
+.name {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    Line height: 1.2;
+    color: #212121;
+}
+.office {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    Line height: 1.2;
+    color: #757575;
+}
+
 .title {
     font-size: 18px;
     line-height: 2;
