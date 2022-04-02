@@ -4,61 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
-<a class="logo" href="./index.html">WebStudio</a>
+    <header class="header" >
 
- <nav>       
-    <ul>
-      <li><a class="nav-link" href="/agencja">About</a></li>
-      <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-      <li><a class="nav-link" href="/kontakt">Contact</a></li>
+<a class="nav-logo" href="/index.html">
+    <img src="images/LogoWebStudio.jpg"
+    alt="Logo_WebStudio"
+    width="144"
+    height="20"
+</a>
+
+ <nav class="nav">       
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-link" href="/Agencja">About</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="/portfolio.html">Portfolio</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="/Kontakt">Contact</a></li>
     </ul>
 </nav>
-  <ul>
-    <li><a class="nav-mail" href="/info@devstudio.com">info@devstudio.com</a></li>
-    <li><a class="nav-phone" href="/+48111111111">+48 111 111 111</a></li>
-  </ul>
+    <a class="mail" href="/info@devstudio.com">info@devstudio.com</a>
+    <a class="phone-number" href="/+48111111111">+48 111 111 111</a>
 </header>
 
 <main>
-  <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-  <button class="button" type="button">Zamów usługe</button>
+  <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+  <button class="modal-btn" type="button">Zamów usługe</button>
 
   <section>
-<h2>Nasze atuty</h2>
+<!--Nasze atuty-->
 
 <ul>
-    <li class="asset-title">LOREM IPSUM</li>
+  <li>
+    <h3>LOREM IPSUM</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+  </li>
+  <li>
+    <h3>LOREM IPSUM</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+  </li>
+  <li>
+    <h3>LOREM IPSUM</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+  </li>
+  <li>
+    <h3>LOREM IPSUM</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+  </li>
 </ul>
-  <ul>
-    <li class="asset-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-  </ul>
-<ul>
-  <li class="asset-title">LOREM IPSUM</li>
-</ul>
-  <ul>
-  <li class="asset-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-    Interdum et malesuada</li>
-  </ul>
-<ul>
-  <li class="asset-title">LOREM IPSUM</li>
-</ul>
-  <ul>
-  <li class="asset-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-    Interdum et malesuada</li>
-  </ul>
-<ul>
-  <li class="asset-title">LOREM IPSUM</li>
-</ul>
-  <ul>
-  <li class="asset-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-    Interdum et malesuada</li>
-  </ul>
-
 </section>
 
 <section>
@@ -71,14 +69,14 @@
   height="294"
 /> </li>
 
-<li><img
+    <li><img
   src="images/img2.jpg"
   alt="Tworzenie aplikacji"
   width="370"
   height="294"
 /> </li>
 
-<li><img
+    <li><img
 src="images/img3.jpg"
 alt="Tworzenie grafiki"
 width="370"
@@ -92,77 +90,67 @@ height="294"
 
 <ul>
   <li>
-<figure>
 <img
   src="images/img4.jpg"
   alt="Mężczyzna"
   width="270"
   height="260"
 />
-<figcaption>
-    <p class="name">John Doe</p> <br/>
-    <p class="office"> Product Designer</p>
-</figcaption>
-</figure>
+    <h3>John Doe</h3>
+    <p>Product Designer</p>
 </li>
 
 <li>
-<figure>
 <img
   src="images/img5.jpg"
   alt="Kobieta"
   width="270"
   height="260"
 />
-<figcaption>
-    <p class="name">John Doe</p> <br/>
-    <p class="office">Frontend Developer</p>
-</figcaption>
-</figure>
+    <h3>John Doe</h3>
+    <p>Frontend Developer</p>
 </li>
 
 <li>
-<figure>
 <img
 src="images/img6.jpg"
 alt="Mężczyzna"
 width="270"
 height="260"
 />
-<figcaption>
-    <p class="name">John Doe</p> <br/>
-    <p class="office">Marketing</p>
-</figcaption>
-</figure>
+    <h3>John Doe</h3>
+    <p>Marketing</p>
 </li>
 
 <li>
-<figure>
 <img
 src="images/img7.jpg"
 alt="Mężczyzna"
 width="270"
 height="260"
 />
-<figcaption>
-    <p class="name">John Doe</p> <br/>
-    <p class="office">UI Designer</p>
-</figcaption>
-</figure>
+    <h3>John Doe</h3>
+    <p>UI Designer</p>
 </li>
 </ul>
 </section>
-
     </main>
+
     <footer>
-        <a class="logo" href="/WebStudio">WebStudio</a>
-      <address>
-        <ul>
-          <li><a>m. Warszawa, Aleje Jerozolimskie 21</a></li>
+      <a href="/WebStudio">
+        <img src="images/LogoWebStudio.jpg"
+        alt="Logo_WebStudio"
+        width="144"
+        height="20"
+    </a>
+        
+    <address>
+      <ul>
+          <li><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>
           <li><a class="nav-mail" href="/info@devstudio.com">info@devstudio.com</a></li>
           <li><a class="nav-phone" href="/+48111111111">+48 111 111 111</a></li>
-        </ul>
-      </address>
+      </ul>
+  </address>
 
     </footer>
 </body>
