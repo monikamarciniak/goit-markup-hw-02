@@ -4,6 +4,7 @@
     --main-color: #212121;
     --secondary-color: #757575;
     --hover-color: #2196F3;
+    --dark-background-color: #FFFFFF;
 }
 
 body {
@@ -11,9 +12,39 @@ body {
     color: var(--main-color)
 }
 
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+    padding: 0;
+}
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+}
+
 /*===MENU===*/
-.nav-logo-web,
-.nav-logo-studio {
+.header .container {
+    display: flex;
+}
+.nav-logo-web .nav {
+    display: flex;
+}
+
+
+
+.logo-header {
     font-family: var(--secondary-font);
 font-size: 26px;
 font-weight: 700;
@@ -22,13 +53,6 @@ letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
 }
-.nav-logo-web {
-    color: var(--hover-color);
-}
-.nav-logo-studio {
-    color:#000000;
-}
-
 
 .nav-list-link,
 .contact-mail,
@@ -39,6 +63,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
+    list-style: none;
 }
 .nav-list-link {
     color: var(--main-color);
@@ -66,7 +91,8 @@ font-weight: 900;
 line-height: 1.364;
 letter-spacing: 0.06em;
 text-align: center;
-/* color: FFFFFF; */
+/* color: var(--dark-background-color); */
+
 }
 .modal-btn {
     font-size: 16px;
@@ -75,8 +101,9 @@ text-align: center;
     letter-spacing: 0.06em;
     text-align: center;
     background-color: var(--hover-color);
-    color: #FFFFFF;
+    color: var(--dark-background-color);
     cursor: pointer;
+    ba
 }
 /*===END HEADER===*/
 
@@ -134,7 +161,17 @@ color: var(--secondary-color);
 }
 /*===END OUR TEAM===*/
 
-/*===END FOOTER===*/
+/*===FOOTER===*/
+.logo-footer {
+    font-family: var(--secondary-font);
+font-size: 26px;
+font-weight: 700;
+line-height: 1.192;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
+}
+
 .contact-list {   
 font-size: 14px;
 font-weight: 400;
@@ -143,7 +180,7 @@ letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
 font-style: normal;
-/* color: #FFFFFF; */
+/* color: var(--dark-background-color); */
 }
 /*===END FOOTER===*/
 
